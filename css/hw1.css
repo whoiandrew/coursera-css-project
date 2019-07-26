@@ -1,0 +1,168 @@
+body{
+	margin: 10px 15px;
+	padding: 10px;
+}
+
+header{
+	background-color: rgba(0, 150, 255, 0.3); 
+	  background-image:url("../images/flywheel.jpg"); 
+	background-repeat: repeat-x;		
+	padding: 15px 50px 30px;
+	clear: both;
+}
+
+h1{
+	text-align: center;
+	text-transform: capitalize;
+}
+
+nav > a{
+	color: #000000;
+	display: inline-block;
+	margin:40px;
+	border-radius:10px;
+	text-decoration: none;
+	padding: 20px;
+	background-color: rgba(50, 55, 10, 0.4);
+	border: 1px solid #000000;
+}
+
+nav > a:hover{
+	background-color: rgba(50, 55, 10, 0.3);
+
+}
+
+nav > a:focus{
+	background-color: rgba(50, 55, 10, 0.1);
+	border: 2px solid #000000;
+
+}
+
+
+nav > .active{
+	color: #ff0000;
+	font-style: oblique;
+	font-family: Helvetica;
+	background-color: rgba(0, 0, 255, 0.6);
+	border: 2px solid #ff0000;
+}
+
+nav > .active:hover{
+	background-color: rgba(0, 0, 255, 0.3);
+
+}
+
+nav > .active:focus{
+	background-color: rgba(0, 0, 255, 0.1);
+
+}
+
+
+nav{
+	text-align: center;
+}
+
+.right{
+	width : 78%;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+
+.left{
+	background: linear-gradient(to bottom left, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0.1));
+	width : 15%;
+	height: 70%;
+	display: inline-block;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+}
+
+.left img{
+	width: 180px;
+	height: 120px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 3px solid #00ff00;
+}
+
+table{
+	margin: 70px 40px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	width: 70%;
+	border-spacing: 3px;
+}
+
+
+table  tr *{
+	padding: 10px;
+	border: solid 1px rgba(0, 200, 0, .5);
+}
+
+table tr th{
+	border-bottom: solid 3px rgb(0, 200, 0) !important; 
+	border: solid 1px rgb(0, 200, 0);
+	border-radius: 5px 5px 0 0;
+	background-color: #3e541d;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 22px;
+
+}
+
+table tr td{
+	background: linear-gradient(45deg, #EE45BA, #C56EED);
+	font-family: Arial;
+	font-size: 18px;
+	opacity: 0.6;
+	transition: .5s .3s opacity;
+}
+
+table tr:hover td{
+	opacity: 1;
+}
+
+
+table tr td:first-child{
+	text-align: left;
+}
+
+table tr th:first-child{
+	text-align: left;
+}
+
+table tr td:nth-child(2){
+	text-align: center;
+}
+
+table tr th:nth-child(2){
+	text-align: center;
+}
+
+table tr td:nth-child(3){
+	text-align: center;
+}
+
+table tr th:nth-child(3){
+	text-align: center;
+}
+
+table tr:last-child td:first-child{
+	border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child{
+	border-radius: 0 0 5px 0;
+}
+
+
+
+
+
+
+
